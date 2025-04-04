@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: burlywood;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid bisque;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: burlywood;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.type-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.type {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.type h3 {
+    color: burlywood;
+    margin-top: 10px;
+}
+
+
+section#benefits ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+section#benefits li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 768px) {
+    .type {
+        width: 45%; 
+    }
+
+    .centered-image {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .type {
+        width: 100%; 
+    }
+
+    header h1 {
+        font-size: 2em; 
+    }
+
+    .centered-image {
+        width: 90%;
+    }
+}
+ 
